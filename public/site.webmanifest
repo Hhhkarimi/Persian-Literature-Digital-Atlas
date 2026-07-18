@@ -1,0 +1,12 @@
+{
+  "name": "تاریخ ادبیات فارسی دیجیتال",
+  "short_name": "اطلس ادب فارسی",
+  "description": "پایگاه تعاملی کاوش تاریخ ادبیات فارسی",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071019",
+  "theme_color": "#071019",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

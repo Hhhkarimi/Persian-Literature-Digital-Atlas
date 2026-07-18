@@ -1,0 +1,35 @@
+{
+  "name": "persian-literature-digital-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "پایگاه تعاملی تاریخ ادبیات فارسی با داده‌های مستند و منابع باز",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ignore-pattern .next --ignore-pattern out",
+    "typecheck": "tsc --noEmit",
+    "test:dataset": "node --test scripts/dataset-worker.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-naskh-arabic": "^5.2.11",
+    "@fontsource/vazirmatn": "^5.2.8",
+    "lucide-react": "^1.25.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  }
+}
